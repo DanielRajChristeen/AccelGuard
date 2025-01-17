@@ -1,11 +1,29 @@
-.htaccess
-css.php
-rpc/
-sites/site*/admin/
-sites/site*/private/
-sites/site*/public/admin/
-sites/site*/public/setup/
-sites/site*/public/theme/
-textpattern/
-HISTORY.txt
-README.txt
+# MATLAB specific files
+*.asv
+*.m~
+*.mex*
+*.mat
+*.mlappinstall
+*.mlpkginstall
+*.p
+*.slx
+*.mdl
+*.slxc
+*.slxp
+*.autosave
+
+# Backup and temporary files
+.DS_Store
+Thumbs.db
+*.log
+
+# MATLAB specific folders
+slprj/
+_simulink_cache/
+*.mlproj
+
+# General IDE files
+*.bak
+*.swp
+*.tmp
+*.~lock.*
